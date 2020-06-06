@@ -9,12 +9,21 @@ import { CelebrationsComponent } from './celebrations/celebrations.component';
 import { AccomodationComponent } from './accomodation/accomodation.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-
+import { HotelComponent } from './hotel/hotel.component';
+import { RooftopComponent } from './rooftop/rooftop.component';
+import { ContactComponent } from './contact/contact.component';
 
 const routes: Routes = [
   { path: 'accomodation', component: AccomodationComponent},
   { path: 'celebrations', component: CelebrationsComponent},
   { path: 'food-beverage', component: FoodBeverageComponent},
+  { path:'foodbeverage',
+    redirectTo: 'food-beverage',
+    pathMatch: 'full'
+  },
+  { path: 'contact', component: ContactComponent},
+  { path: 'rooftop', component: RooftopComponent},
+  { path: 'hotel', component: HotelComponent},
   { path: 'lifestyle', component: LifestyleComponent},
   { path: 'weddings', component: WeddingsComponent},
   { path: 'offers', component: OffersComponent},
