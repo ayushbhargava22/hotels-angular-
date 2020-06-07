@@ -1,10 +1,10 @@
-new Glider(document.querySelector('.glider'), {
-    slidesToShow: 1,
-    draggable: true,
-    dots: '#dots',
-    arrows:
-    {
-        prev: '.glider-prev',
-        next: '.glider-next'
-    }
-})
+
+$('.advantage-wrapper').slick({
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    nextArrow: $('.next'),
+    prevArrow: $('.prev'),
+  });
+

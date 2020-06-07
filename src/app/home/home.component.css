@@ -39,6 +39,7 @@
     max-width: 650px;
     cursor: pointer;
     top: 190px;
+    height: 236px;
 }
 .wrap-main-scroll{
     padding: 20px 20px 50px;
@@ -119,7 +120,7 @@
 .topadvantages-module.show{
     opacity: 1;
     padding: 0 70px;
-    width: 1260px;
+    width: 90%;
 }
 .topadvantages-module{
     position: absolute;
@@ -160,16 +161,94 @@
     color: white;
     right: 0px;
 }
-.post-slider{
-    border: 1px solid red;
-}
-.post-slider .post-wrapper{
-    border: 1px dashed red;
-    width: 100%;
+
+.advantage-wrapper{
+    width: 84%;
+    overflow: hidden;
     margin: 0 auto;
 }
-.post-wrapper .post{
-   display: inline-block;
-   width: 140px;
-   height: 80px;
+.advantages{
+    justify-content: center;
+    display: inline-block;
+    width: 250px;
+    margin: 0 10px;
+    color: white;
+    width: 250px;
+}
+.advantage-1-wrap , .advantage-2-wrap , .advantage-3-wrap , .advantage-4-wrap , .advantage-5-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.advantage-1-wrap p , .advantage-2-wrap p , .advantage-3-wrap p , .advantage-4-wrap p , .advantage-5-wrap p{
+    margin: 0;
+    padding-left: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+#cycle , #spa , #gift, #beer , #money{
+    height: 40px;
+    width: 40px;
+    background-color: #C2654A;
+    color: white;
+    border: 1px solid #C2654A;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.advantage-1-wrap::after{
+    content: "|";
+    font-size: 27px;
+    padding-top: 12px;
+    font-weight: lighter;
+    display: flex;
+    color: white;
+    right: 0px;
+    display: flex;
+    padding-left: 40px;
+}
+.advantage-2-wrap::after{
+    content: "|";
+    font-size: 27px;
+    padding-top: 12px;
+    font-weight: lighter;
+    display: flex;
+    color: white;
+    right: 0px;
+    display: flex;
+    padding-left: 40px;
+}
+.advantage-3-wrap::after{
+    content: "|";
+    font-size: 27px;
+    padding-top: 12px;
+    font-weight: lighter;
+    display: flex;
+    color: white;
+    right: 0px;
+    display: flex;
+    padding-left: 40px;
+}
+.advantage-4-wrap::after{
+    content: "|";
+    font-size: 27px;
+    padding-top: 12px;
+    font-weight: lighter;
+    display: flex;
+    color: white;
+    right: 0px;
+    display: flex;
+    padding-left: 40px;
+}
+.advantage-5-wrap::after{
+    content: "|";
+    font-size: 27px;
+    padding-top: 12px;
+    font-weight: lighter;
+    display: flex;
+    color: white;
+    right: 0px;
+    display: flex;
+    padding-left: 40px;
 }
