@@ -1,3 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=B612+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antic&display=swap');
 .container{
+    padding-bottom: 20px;
+    font-family: 'Antic', sans-serif;
+}
+.home-container-wrap{
     background-image: url(../../assets/images/246-mavifoto.jpg);
+    min-height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hotel-title{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'B612 Mono', monospace;
+}
+.hotel-title h1{
+    font-size: 45px;
+    color: white;
+    z-index: 1;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'B612 Mono', monospace;
+}
+.hotel-title p{
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 5px;
+}
+.main-scroll{
+    position: relative;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 650px;
+    cursor: pointer;
+    top: 190px;
+}
+.wrap-main-scroll{
+    padding: 20px 20px 50px;
+    text-align: center;
+}
+.scroll-icon .fa{
+    font-size: 25px;
+    font-weight: normal;
+    color: white;
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #fff;
+    transition: all ease-out .6s;
+    transform: rotate(45deg) scale(1) translateZ(0);
+}
+.scroll-icon .fa::before{
+    position: absolute;
+    left: 30%;
+    top: 29%;
+    transform: rotate(-45deg);
+    font-size: 16px;
+    color: #fff;
+}
+.scroll-text{
+    margin-bottom: 30px;
+}
+.scroll-main-text{
+    background-color: #C2654A;
+    color: white;
+    border-radius: 10px;
+    width: 80px;
+    font-weight: bold;
+    letter-spacing: 2.5px;
+    padding: 10px 60px;
+}
+.scroll-main-text::after{
+    content: '\e919';
+    position: absolute;
+    top: calc(100% - 1px);
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'icomoon';
+    font-size: 8px;
+    color: #C2654A;
+}
+#info-down-icon:hover{
+    background-color: #C2654A;
+    color: white;
+    transition: all ease-out .6s;
+    width: 25px;
+    height: 25px;
+}
+.scroll-icon .fa:hover{
+    font-size: 10px;
+}
+.scroll-secound-text{
+    position: relative;
+    padding-top: 20px;
+}
+.scroll-secound-text h2{
+    text-transform: uppercase;
+    color: white;
+    font-size: 25px;
+    letter-spacing: 3.5px;
+    font-weight: normal;
+}
+.topadvantages-point{
+    top: 222px;
+    position: relative;
+    min-width: initial;
+    padding: 0;
+}
+.big-wrapper{
+    margin: 0 auto;
+}
+.topadvantages-module.show{
+    opacity: 1;
+    padding: 0 70px;
+    width: 1260px;
+}
+.topadvantages-module{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    transition: all ease-out .6s;
+}
+.wrap-topadvantages-module{
+    padding: 25px 70px 20px 0;
+    background-color: rgba(0,0,0,0.4);
 }
