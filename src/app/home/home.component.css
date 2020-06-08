@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=B612+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Antic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arbutus+Slab&display=swap');
 .container{
     padding-bottom: 20px;
     font-family: 'Antic', sans-serif;
+    scroll-behavior: smooth;
 }
 .home-container-wrap{
     background-image: url(../../assets/images/246-mavifoto.jpg);
@@ -251,4 +253,183 @@
     right: 0px;
     display: flex;
     padding-left: 40px;
+}
+.section-2-wrap{
+    padding-top: 200px;
+    position: relative;
+}
+.section-2-wrap h1{
+    text-transform: uppercase;
+    color: #C2654A;
+    font-size: 75px;
+    letter-spacing: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Arbutus Slab', serif;
+}
+.section-2-wrap .random-text-2{
+    padding-top: 20px;
+    font-size: 29px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    width: 62%;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 40px;
+    color: #444;
+}
+
+.section-2-wrap h2{
+    font-size: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+    color: rgba(68, 68, 68, 0.747);
+    font-weight: normal;
+}
+.more-info-btn a{
+    text-decoration: none;
+}
+.more-info-btn , .hide-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
+.more-info-btn h2 , .hide-btn .hide-show-div{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #C2654A;
+    font-weight: 400;
+    letter-spacing:3px;
+    padding: 0;
+    margin: 0;
+    width: 120px;
+    font-size: 15px;
+    line-height: 1.5;
+    padding-bottom: 50px;
+    cursor: pointer;
+}
+.border-animate::after{
+    content: "";  
+    display: block; 
+    width: 80%; 
+    padding-top: 2px; 
+    border-bottom: 1px solid #C2654A; 
+    transition: .5s all ease-in-out; 
+}
+.border-animate:hover::after{
+    width: 15%;
+    font-weight: 600;
+}
+.hide-show-div::after{
+    content: "";  
+    display: block; 
+    width: 80%; 
+    padding-top: 2px; 
+    border-bottom: 1px solid #C2654A; 
+    transition: .5s all ease-in-out; 
+}
+.more-info-section{
+    transition: 0.5s all ease-in-out;
+}
+.hide-show-div:hover::after{
+    width: 15%;
+    font-weight: 600;
+}
+.hide-show-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hide-show p{
+    color: #444;
+    font-size: 15px;
+    letter-spacing: 3px;
+    font-weight: 550;
+    text-transform: uppercase;
+}
+.location-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.location-text .location{
+    padding-top: 30px;
+    color: #C2654A;
+    font-size: 40px;
+    letter-spacing: 3px;
+    margin-bottom: 0;
+}
+.boosting-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boosting-text .boost{
+    color: rgba(0, 0, 0, 0.76);
+    font-size: 25px;
+    padding-bottom: 40px;
+}
+.hwg-hideshow{
+    display: flex;
+    margin: 0 50px;
+    border-top: 1px solid rgba(68, 68, 68, 0.534);
+    border-bottom: 1px solid rgba(68, 68, 68, 0.534);
+}
+.hwg-hideshow-left{
+    width: 50%;
+    border-right: 1px solid rgba(68, 68, 68, 0.534);
+    padding-bottom: 50px;
+}
+.title{
+    padding-top: 50px;
+    margin-left: 50px;
+}
+.title .title-head{
+    display: flex;
+    justify-content: flex-start;
+    color: #C2654A;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.philosophy-ans .philosophy, .palma-ans .palma , .rooftop-ans .rooftop
+,.santi-ans .santi , .wellness-ans .wellness
+{
+    font-size: 12px;
+    margin-right: 20px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.664);
+    letter-spacing: 2px;
+}
+.left-section-title-1::after{
+    content: "";
+    display: block; 
+    width: 7%; 
+    padding-top: 30px; 
+    border-bottom: 1px solid #C2654A; 
+}
+.left-section-title-2{
+    padding-top: 0;
+    margin-top: 20px;
+}
+.hwg-hideshow-right{
+    width: 50%;
+}
+.right-section-title-1 , .right-section-title-2 {
+    border-bottom: 1px solid rgba(68, 68, 68, 0.534) ;
+    padding-bottom: 60px;
+}
+.hideshow-footer{
+    padding-top: 50px;
+}
+.hideshow-footer-title .footer-header{
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.671);
 }

@@ -12,5 +12,9 @@ export default {css:[
     {
       name: "normal",
       link: "assets/js/main.js"
+    },
+    {
+      name: "showhide",
+      link: "assets/js/showhide.js"
     }
   ]};
