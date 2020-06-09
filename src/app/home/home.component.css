@@ -434,3 +434,93 @@
     font-size: 25px;
     color: rgba(0, 0, 0, 0.671);
 }
+.hotel-slider{
+    margin-top: 50px;
+}
+.hotel-slider-left{
+    width: 40%;
+    display: block;
+}
+.hotel-slider-left .hotel-left-title .small-title{
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.63);
+    display: flex;
+    flex-direction: column;
+}
+.hotel-left-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    text-align: center;
+}
+.hotel-main-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+.small-title::after{
+    content: "|";
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 50px;
+    font-weight: 100;
+    color: #00000059;
+    padding-left: 0;
+    padding-right: 0;
+}
+.hotel-main-title .main-title{
+    text-transform: uppercase;
+    font-size: 45px;
+    font-family: 'Arbutus Slab', serif;
+    color: #C2654A;
+    letter-spacing: 2px;
+}
+.hotel-main-title .hotel-subtitle{
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 550;
+}
+.hotel-main-title .hotel-description{
+    padding-top: 20px;
+    width: 60%;
+    color: rgba(68, 68, 68, 0.781);
+    font-weight: 600;
+    line-height: 1.5rem;
+    letter-spacing: 2.2px;
+    text-align: center;
+}
+.room-button-wrap{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.room-button-wrap .see-room , .room-button-wrap .reserve{
+    margin-right: 10px;
+    border: 2px solid rgba(68, 68, 68, 0.623);
+    width: 30%;
+    cursor: pointer;
+}
+.room-button-wrap .see-room .see-room-btn , .room-button-wrap .reserve .reserve-btn{
+    color: rgba(68, 68, 68, 0.623);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 2.2px;
+    padding: 0;
+    margin: 0;
+    padding: 5px 20px;
+}
+.hotel-slider-right{
+    width: 60%;
+}
+.hotel-right-wrap{
+    padding-right: 20px;
+}
+.hotel-right-wrap img{
+    width: 100%;
+    border-radius: 10px;
+}
