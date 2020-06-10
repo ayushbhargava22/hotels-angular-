@@ -29,3 +29,4 @@ document.getElementById("hide-button").addEventListener("click", function() {
 })
 
 
+new Glide('.glide').mount() 
