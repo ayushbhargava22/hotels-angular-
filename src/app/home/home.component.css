@@ -544,3 +544,45 @@
 .hotel-room{
     display: flex;
 }
+#dins{
+    margin-bottom: 20px;
+    padding-top: 100px;
+    padding-right:32px;
+    padding-left: 50px;
+}
+.dins-wrap{
+    position: relative;
+    color: white;
+    border-radius: 5px;
+    min-height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-position-x: 50%;
+    background-image: url(../../assets/images/83-05panollorenc1800x804dins.jpg);
+}
+.dins-text{
+    position: absolute;
+    top: 40%;
+}
+.dins-title{
+    padding-left: 100px;
+    font-size: 50px;
+    letter-spacing: 3rem;
+}
+#first-text , #secound-text{
+    font-size: 6rem;
+}
+#third-text{
+    font-size: 5rem;
+}
+#fourth-text{
+    font-size: 4rem;
+}
+.dins-sub-heading{
+    padding-left: 104px;
+    margin-top: 20px;
+}
+.dins-sub-heading .dins-subheading{
+    letter-spacing: 1.24rem;
+}
