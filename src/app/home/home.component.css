@@ -579,6 +579,44 @@
     background-position-x: 50%;
     background-image: url(../../assets/images/83-05panollorenc1800x804dins.jpg);
 }
+.offers{
+    width: 97%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.offers-wrap{
+    position: relative;
+    min-height: 262px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+.offer-1-sub-1-wrap{
+    width: 30%;
+    background-image: url(../../assets/images/519-dsc0301hq.jpg);
+}
+.offer-1-sub-2-wrap{
+    width: 30%;
+    background-image: url(../../assets/images/559-producto-1.jpg);
+}
+.offer-1-sub-3-wrap{
+    width: 30%;
+    background-image: url(../../assets/images/523-dsc0087hq.jpg);
+}
+.offer-2-sub-1-wrap{
+    width: 30%;
+    background-image: url(../../assets/images/523-dsc0087hq.jpg);
+}
+.offer-2-sub-2-wrap{
+    width: 30%;
+    background-image: url(../../assets/images/521-dsc05955hq.jpg);
+}
+.offer-2-sub-3-wrap{
+    width: 30%;
+    background-image: url(../../assets/images/564-producto-2.jpg);
+}
 .dins-text{
     position: absolute;
     top: 35%;
@@ -658,4 +696,36 @@
     height: 110%;
     height: 650px;
     border-radius: 10px;
+}
+.offers-heading .offer-title{
+    color: #C2654A;
+    text-transform: uppercase;
+    font-size: 19px;
+    letter-spacing: 2px;
+    font-weight: 550;
+    position: relative;
+    margin: 0;
+}
+.offer-title::after{
+    content: "";
+    position: absolute;
+    top:15px;
+    width: 33px;
+    height: 2px;
+    background: rgba(68, 68, 68, 0.493);
+    left: 129%;
+}
+.offers-heading{
+    padding-top: 50px;
+    display: flex;
+    padding-left: 42px;
+    align-items: center;
+}
+.offers-heading span{
+    position: absolute;
+    left: 12%;
+    padding-left: 20px;
+    color: black;
+    letter-spacing: 1.5px;
+    font-weight: 600;
 }
