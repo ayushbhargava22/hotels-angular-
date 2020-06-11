@@ -30,3 +30,5 @@ document.getElementById("hide-button").addEventListener("click", function() {
 
 
 new Glide('.glide').mount() 
+
+new Glide('.facility-glide').mount() 
