@@ -18,8 +18,10 @@
 .facility__arrow--right{right:66.3%}
 .facility__arrow--disabled{opacity:0.33}
 
+
 .offer__arrow:focus{outline:none}
 .offer__arrow:hover{background-color:#C2654A;}
-.offer__arrow--left{left: 24.7%;}
-.offer__arrow--right{right:66.3%}
+.offer__arrow--left{left: 5%;top: 55%;}
+.offer__arrow--right{right: 5.3%;top: 54%;}
 .offer__arrow--disabled{opacity:0.33}
+.offer--swipeable{margin-top: 50px;}
