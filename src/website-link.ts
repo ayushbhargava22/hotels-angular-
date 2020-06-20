@@ -27,7 +27,7 @@ export default {css:[
       link: "assets/js/main.js"
     },
     {
-      name: "showhide",
-      link: "assets/js/showhide.js"
+      name:"maps",
+      link: "https://maps.googleapis.com/maps/api/js?key=AIzaSyAu_HJrvi8JkwY6kA4MCm6A1p56awjop4I&callback=initMap"
     }
   ]};

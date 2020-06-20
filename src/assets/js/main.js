@@ -35,3 +35,28 @@ new Glide('.facility-glide').mount()
 
 
 new Glide('.offer').mount()
+
+
+function initMap() {
+  var options = {
+    zoom: 8,
+    center: { lat:26.9124, lng:75.7873}
+  }
+
+  var map = new google.maps.Map(document.getElementById('map'), options);
+  /*
+  var marker = new google.maps.Marker({
+    position:{lat:26.8549, lng:75.8243},
+    map:map
+  })*/
+  
+  addMarker({lat:26.8549, lng:75.8243})
+  addMarker({lat:26.9306, lng:75.7936})
+
+  function addMarker(coords) {
+    var marker = new google.maps.Marker({
+      position:coords,
+      map:map
+    })
+  }
+}

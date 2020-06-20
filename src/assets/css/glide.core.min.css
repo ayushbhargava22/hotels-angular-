@@ -9,7 +9,7 @@
 .glide__bullets{-webkit-touch-callout:none;user-select:none}
 .glide--rtl{direction:rtl}
 .glide__slides , .facility__slides , .offer__slides{transition: 500s ease-in-out;}
-.facility-glide *{box-sizing:inherit}
+.facility-glide *{box-sizing:inherit;overflow: hidden;}
 .offer *{box-sizing:inherit}
 .facility__slides--dragging{user-select:none}
 .offer__slides--dragging{user-select:none}
