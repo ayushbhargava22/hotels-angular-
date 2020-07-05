@@ -1,0 +1,68 @@
+.maps-contact{
+    display: flex;
+}
+.maps-contact{
+    padding: 20px 45px;
+}
+.maps{
+    width: 50%;
+    height: 700px;
+}
+.contact-wrap{
+    padding-top: 50px;
+    width: 50%;
+    margin-left: 30px;
+}
+.back-to-top{
+    display: flex;
+    justify-content: flex-end;
+    height: 50px;
+}
+.back-to-top .fa {
+    font-size: 30px;
+    color: #9D9C97;
+    font-weight: 300;
+    border: 2px solid #9D9C97;
+    border-radius: 50%;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.address-sec {
+    margin-top: 30px;
+    border-top: 1px solid #C0BFB9;
+    border-bottom: 1px solid #C0BFB9;
+}
+.contacts{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.heading h1{
+    color: #C2654A;
+    font-weight: normal;
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+.address-loc {
+    width: 30%;
+}
+.address-loc h2{
+    font-size: 15px;
+}
+.phn-no-sec , .how-to-arrive-sec , .social-links-sec{
+    margin-top: 30px;
+    border-bottom: 1px solid #C0BFB9;
+}
+
+.phn-no p{
+    font-size: 15px;
+}
+.arrive-route , .phn-no , .social-link{
+    width: 30%;
+}
+.arrive-route h1{
+    font-size: 15px;
+}

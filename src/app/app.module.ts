@@ -26,6 +26,7 @@ import { NavtabsComponent } from './navigation/navtabs/navtabs.component';
 import { HotelComponent } from './hotel/hotel.component';
 import { RooftopComponent } from './rooftop/rooftop.component';
 import { ContactComponent } from './contact/contact.component';
+import { FooterComponent } from './common/footer/footer.component';
 
 
 @NgModule({
@@ -46,7 +47,8 @@ import { ContactComponent } from './contact/contact.component';
     NavtabsComponent,
     HotelComponent,
     RooftopComponent,
-    ContactComponent
+    ContactComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
